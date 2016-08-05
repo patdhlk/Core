@@ -32,9 +32,9 @@ using System.Security;
 [assembly: AssemblyCompany("Castle Project")]
 [assembly: AssemblyCopyright("Copyright (c) 2004-$CurrentYear$ Castle Project - http://www.castleproject.org")]
 
-[assembly: AssemblyVersion("0.0.0")]
-[assembly: AssemblyFileVersion("0.0.0")]
-[assembly: AssemblyInformationalVersion("0.0.0")]
+[assembly: AssemblyVersion("3.3.0.0")]
+[assembly: AssemblyFileVersion("3.3.1.0")]
+[assembly: AssemblyInformationalVersion("3.3.1.0")]
 
 #if DEBUG
 [assembly: AssemblyConfiguration("Debug")]

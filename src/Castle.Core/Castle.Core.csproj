@@ -81,7 +81,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'NET45-Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\NET45-Debug\</OutputPath>
+    <OutputPath>..\..\..\Debug\NET45-Debug\</OutputPath>
     <DefineConstants>TRACE;DEBUG;DOTNET40 DOTNET45</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -92,9 +92,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'NET45-Release|AnyCPU'">
-    <OutputPath>bin\NET45-Release\</OutputPath>
+    <OutputPath>..\..\..\Release\NET45-Release\</OutputPath>
     <DefineConstants>TRACE;DOTNET40 DOTNET45</DefineConstants>
-    <DocumentationFile>bin\NET45-Release\Castle.Core.xml</DocumentationFile>
+    <DocumentationFile>..\..\..\Release\NET45-Release\Castle.Core.xml</DocumentationFile>
     <Optimize>true</Optimize>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <NoWarn>1591</NoWarn>
